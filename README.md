@@ -9,7 +9,7 @@ code: each version is a [release](../../releases) with the APK attached as
 Admin dashboard → **App settings** → **Download link** (set once):
 
 ```
-https://github.com/shaharsh624/the-m-zone-app-client-releases/releases/latest/download/themzone.apk
+https://github.com/shaharsh624/themzone-app-client-releases/releases/latest/download/themzone.apk
 ```
 
 It always points to the newest release. The app downloads it in the
@@ -17,7 +17,7 @@ background, checks it is a newer build of The M Zone, and shows **Install**.
 
 ## Publishing a version
 
-From the app repository (`the-m-zone-app-client`), on an up-to-date `main`
+From the app repository (`themzone-app-client`), on an up-to-date `main`
 with `version:` raised in `pubspec.yaml`:
 
 ```bash
@@ -34,6 +34,6 @@ Always keep the asset name `themzone.apk`, or the link above stops working.
 
 ## This folder on the development computer
 
-Cloned beside the app repository, as `../the-m-zone-app-client-releases`.
+Cloned beside the app repository, as `../themzone-app-client-releases`.
 `apks/` keeps a local copy of every released APK; APKs are never committed
 (see `.gitignore`), because GitHub stores them as release assets.
